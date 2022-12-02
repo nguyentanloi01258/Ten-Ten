@@ -97,7 +97,6 @@ namespace ProjectLogin
             this.dgvUsers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvUsers.Size = new System.Drawing.Size(806, 507);
             this.dgvUsers.TabIndex = 2;
-            this.dgvUsers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsers_CellContentClick);
             this.dgvUsers.Click += new System.EventHandler(this.DgvUsers_Click);
             // 
             // colID

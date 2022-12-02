@@ -1,5 +1,5 @@
-﻿using Project40.DataLayer.Entity;
-using ProjectLogin.BLLLayer;
+﻿using ProjectLogin.BLLLayer;
+using ProjectLogin.DataLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -153,11 +153,6 @@ namespace ProjectLogin
                 txtMatKhau.PasswordChar = '\0';
                 txtNhapLaiMatKhau.PasswordChar = '\0';
             }
-        }
-
-        private void cbbDanhSachUser_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

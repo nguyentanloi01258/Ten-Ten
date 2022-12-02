@@ -1,5 +1,4 @@
-﻿using Project40.DataLayer.Dao;
-using Project40.DataLayer.Entity;
+﻿using ProjectLogin.DataLayer;
 using System;
 using System.Collections.Generic;
 using System.Text;

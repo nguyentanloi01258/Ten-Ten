@@ -1,6 +1,4 @@
-﻿using Project40.DataLayer.DatabaseType;
-using Project40.DataLayer.Entity;
-using ProjectLogin.BLLLayer;
+﻿using ProjectLogin.BLLLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +6,6 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using Project40.Properties;
 
 namespace ProjectLogin
 {
@@ -20,16 +17,14 @@ namespace ProjectLogin
         }
         //public string ThongTin = string.Empty;
         BLLUser bd;
-        public User user;
-        DataBaseTK data;
-        List<User> users=null;
+
         private void FrmLogin_Load(object sender, EventArgs e)
         {
             bd = new BLLUser(clsMain.pathUser);// đừng dẫn 
             txtTaiKhoan.Focus();// tập trung con trỏ vào ô
-            txtTaiKhoan.Text = Settings.Default.username;// lưu mật khẩu
-            txtMatKhau.Text = Settings.Default.password;
-            if (Settings.Default.username != "")
+            txtTaiKhoan.Text = Properties.Settings.Default.username;// lưu mật khẩu
+            txtMatKhau.Text = Properties.Settings.Default.password;
+            if (Properties.Settings.Default.username != "")
             {
                 ckNhoMatKhau.Checked = true;
             }
@@ -38,12 +33,10 @@ namespace ProjectLogin
 
         private void BtnThoat_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn muốn thoát khỏi trang", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if(MessageBox.Show("Bạn muốn thoát khỏi trang","Thông báo",MessageBoxButtons.YesNo,MessageBoxIcon.Warning)==DialogResult.Yes)
             {
-
                 Application.Exit();
-            }
-           
+            }    
         }
 
         private void BtnDangNhap_Click(object sender, EventArgs e)
@@ -56,8 +49,7 @@ namespace ProjectLogin
                     {
                         trangThaiDongForm = true;
                         clsMain.taiKhoan = txtTaiKhoan.Text;
-                        clsMain.matKhau= txtMatKhau.Text;
-                        
+                        clsMain.matKhau = txtMatKhau.Text;
                         this.Close();
                     }
                     else
@@ -80,8 +72,6 @@ namespace ProjectLogin
                 txtTaiKhoan.Focus();
             }
         }
-
-        
 
         private bool KiemTraDN(string taiKhoan, string matKhau)
         {
@@ -106,13 +96,15 @@ namespace ProjectLogin
             {
                 if (txtTaiKhoan.Text != "" && txtMatKhau.Text != "")
                 {
-                    Settings.Default.username = txtTaiKhoan.Text;
-                    Settings.Default.password = txtMatKhau.Text;
-                    Settings.Default.Save();//lưu lại 
+                    string checkTaiKhoan = txtTaiKhoan.Text;
+                    string checkMatKhau = txtMatKhau.Text;
+                    Properties.Settings.Default.username = checkTaiKhoan;
+                    Properties.Settings.Default.password = checkMatKhau;
+                    Properties.Settings.Default.Save();//lưu lại 
                 }
             }else
             {               
-                    Settings.Default.Reset();//xoá và lưu cái mặc định
+                    Properties.Settings.Default.Reset();//xoá và lưu cái mặc định
    
             }
         }

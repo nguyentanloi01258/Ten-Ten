@@ -57,7 +57,6 @@ namespace ProjectLogin
             this.cbbDanhSachUser.Name = "cbbDanhSachUser";
             this.cbbDanhSachUser.Size = new System.Drawing.Size(466, 38);
             this.cbbDanhSachUser.TabIndex = 2;
-            this.cbbDanhSachUser.SelectedIndexChanged += new System.EventHandler(this.cbbDanhSachUser_SelectedIndexChanged);
             // 
             // btnXacNhan
             // 

@@ -1,5 +1,5 @@
-﻿using Project40.DataLayer.Entity;
-using ProjectLogin.BLLLayer;
+﻿using ProjectLogin.BLLLayer;
+using ProjectLogin.DataLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,18 +35,18 @@ namespace ProjectLogin
 
         private void BtnThoat_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Cửa sổ sẽ được đóng\nxin vui lòng xác nhận", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+            if(MessageBox.Show("Cửa sổ sẽ được đóng\nxin vui lòng xác nhận","Thông báo",MessageBoxButtons.OKCancel,MessageBoxIcon.Warning)==DialogResult.OK)
             {
                 this.Close();
             }
         }
         private void DgvUsers_Click(object sender, EventArgs e)
         {
-            if (dgvUsers.Rows.Count > 0)
+            if(dgvUsers.Rows.Count>0)
             {
                 userxs = new User()
                 {
-                    ID = Convert.ToInt32(dgvUsers.CurrentRow.Cells["colID"].Value.ToString()),
+                    ID=Convert.ToInt32(dgvUsers.CurrentRow.Cells["colID"].Value.ToString()),
                     HoVaTen = dgvUsers.CurrentRow.Cells["colHoVaTen"].Value.ToString(),
                     TaiKhoan = dgvUsers.CurrentRow.Cells["colTaiKhoan"].Value.ToString(),
                     MatKhau = dgvUsers.CurrentRow.Cells["colMatKhau"].Value.ToString(),
@@ -56,7 +56,7 @@ namespace ProjectLogin
         }
         private void BtnXoa_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Hãy chắc chắn rằng bạn muốn xóa tài khoản này!!!", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
+            if(MessageBox.Show("Hãy chắc chắn rằng bạn muốn xóa tài khoản này!!!","Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
             {
                 if (userxs != null)
                 {
@@ -67,14 +67,14 @@ namespace ProjectLogin
                     MessageBox.Show("Chưa chọn user", "Thông báo", MessageBoxButtons.OK);
                 }
             }
-
+            
         }
         private void XoaUser(int iD)
         {
             //muon su dung ham ToList() thi phai add using System.Linq;
             foreach (User item in clsMain.users.ToList())
             {
-                if (item.ID == iD)
+                if(item.ID==iD)
                 {
                     clsMain.users.Remove(userxs);
                     HienThiDanhSachUsers();
@@ -86,13 +86,13 @@ namespace ProjectLogin
             clsMain.CapNhatData(clsMain.pathUser, clsMain.users);
             MessageBox.Show("Xóa thành công", "Trạng thái", MessageBoxButtons.OK);
         }
-        /* private void XoaUser(string iD)
-         {
-             User user = ChonUser(Convert.ToInt32(iD))[0];
-             clsMain.users.Remove(user);
-             clsMain.CapNhatData(clsMain.pathUser, clsMain.users);
-             HienThiDanhSachUsers();
-         }*/
+       /* private void XoaUser(string iD)
+        {
+            User user = ChonUser(Convert.ToInt32(iD))[0];
+            clsMain.users.Remove(user);
+            clsMain.CapNhatData(clsMain.pathUser, clsMain.users);
+            HienThiDanhSachUsers();
+        }*/
         public List<User> ChonUser(int iD)// chọn để sửa hoặc xoá
         {
             List<User> result = clsMain.users.FindAll(delegate (User user)
@@ -130,12 +130,7 @@ namespace ProjectLogin
             {
                 MessageBox.Show("Chưa chọn user cần sửa\nVui lòng chọn user", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
-        }
-
-        private void dgvUsers_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+           
         }
     }
 }

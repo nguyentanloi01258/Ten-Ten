@@ -36,8 +36,7 @@ namespace ProjectLogin
             this.pnl_Left = new System.Windows.Forms.Panel();
             this.pnlChucNang = new System.Windows.Forms.FlowLayoutPanel();
             this.btnChucNang = new System.Windows.Forms.Button();
-            this.btnQuanLySinhVien = new System.Windows.Forms.Button();
-            this.btnQuanLyLop = new System.Windows.Forms.Button();
+            this.btnTinhBill = new System.Windows.Forms.Button();
             this.pnlHeThong = new System.Windows.Forms.FlowLayoutPanel();
             this.btnHeThong = new System.Windows.Forms.Button();
             this.btnQuanLiTaiKhoan = new System.Windows.Forms.Button();
@@ -48,10 +47,10 @@ namespace ProjectLogin
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.btnThoat = new System.Windows.Forms.Button();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tct_Main = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.pnl_Left.SuspendLayout();
@@ -113,12 +112,11 @@ namespace ProjectLogin
             // pnlChucNang
             // 
             this.pnlChucNang.Controls.Add(this.btnChucNang);
-            this.pnlChucNang.Controls.Add(this.btnQuanLySinhVien);
-            this.pnlChucNang.Controls.Add(this.btnQuanLyLop);
+            this.pnlChucNang.Controls.Add(this.btnTinhBill);
             this.pnlChucNang.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlChucNang.Location = new System.Drawing.Point(0, 267);
+            this.pnlChucNang.Location = new System.Drawing.Point(0, 263);
             this.pnlChucNang.Name = "pnlChucNang";
-            this.pnlChucNang.Size = new System.Drawing.Size(255, 156);
+            this.pnlChucNang.Size = new System.Drawing.Size(255, 103);
             this.pnlChucNang.TabIndex = 4;
             // 
             // btnChucNang
@@ -136,35 +134,20 @@ namespace ProjectLogin
             this.btnChucNang.UseVisualStyleBackColor = false;
             this.btnChucNang.Click += new System.EventHandler(this.btnChucNang_Click);
             // 
-            // btnQuanLySinhVien
+            // btnTinhBill
             // 
-            this.btnQuanLySinhVien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(108)))), ((int)(((byte)(232)))));
-            this.btnQuanLySinhVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuanLySinhVien.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnQuanLySinhVien.ForeColor = System.Drawing.Color.White;
-            this.btnQuanLySinhVien.Location = new System.Drawing.Point(0, 52);
-            this.btnQuanLySinhVien.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.btnQuanLySinhVien.Name = "btnQuanLySinhVien";
-            this.btnQuanLySinhVien.Size = new System.Drawing.Size(254, 51);
-            this.btnQuanLySinhVien.TabIndex = 4;
-            this.btnQuanLySinhVien.Text = "Quản lý sinh viên";
-            this.btnQuanLySinhVien.UseVisualStyleBackColor = false;
-            this.btnQuanLySinhVien.Click += new System.EventHandler(this.btnQuanLySinhVien_Click);
-            // 
-            // btnQuanLyLop
-            // 
-            this.btnQuanLyLop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(108)))), ((int)(((byte)(232)))));
-            this.btnQuanLyLop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuanLyLop.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnQuanLyLop.ForeColor = System.Drawing.Color.White;
-            this.btnQuanLyLop.Location = new System.Drawing.Point(0, 104);
-            this.btnQuanLyLop.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
-            this.btnQuanLyLop.Name = "btnQuanLyLop";
-            this.btnQuanLyLop.Size = new System.Drawing.Size(254, 51);
-            this.btnQuanLyLop.TabIndex = 5;
-            this.btnQuanLyLop.Text = "Quản lý lớp";
-            this.btnQuanLyLop.UseVisualStyleBackColor = false;
-            this.btnQuanLyLop.Click += new System.EventHandler(this.btnQuanLyLop_Click);
+            this.btnTinhBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(108)))), ((int)(((byte)(232)))));
+            this.btnTinhBill.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTinhBill.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTinhBill.ForeColor = System.Drawing.Color.White;
+            this.btnTinhBill.Location = new System.Drawing.Point(0, 52);
+            this.btnTinhBill.Margin = new System.Windows.Forms.Padding(0, 0, 0, 1);
+            this.btnTinhBill.Name = "btnTinhBill";
+            this.btnTinhBill.Size = new System.Drawing.Size(254, 51);
+            this.btnTinhBill.TabIndex = 1;
+            this.btnTinhBill.Text = "Tính bill quán ăn";
+            this.btnTinhBill.UseVisualStyleBackColor = false;
+            this.btnTinhBill.Click += new System.EventHandler(this.btnTinhBill_Click);
             // 
             // pnlHeThong
             // 
@@ -175,7 +158,7 @@ namespace ProjectLogin
             this.pnlHeThong.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeThong.Location = new System.Drawing.Point(0, 59);
             this.pnlHeThong.Name = "pnlHeThong";
-            this.pnlHeThong.Size = new System.Drawing.Size(255, 208);
+            this.pnlHeThong.Size = new System.Drawing.Size(255, 204);
             this.pnlHeThong.TabIndex = 3;
             // 
             // btnHeThong
@@ -276,7 +259,7 @@ namespace ProjectLogin
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1035, 57);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Project 40% Team TEN-TEN";
+            this.label1.Text = "Chương trình tính bill quán cafe";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnThoat
@@ -296,38 +279,6 @@ namespace ProjectLogin
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 29);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1086, 600);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 29);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage2.Size = new System.Drawing.Size(1086, 600);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 29);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1086, 600);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
             // tct_Main
             // 
             this.tct_Main.Controls.Add(this.tabPage1);
@@ -340,6 +291,38 @@ namespace ProjectLogin
             this.tct_Main.SelectedIndex = 0;
             this.tct_Main.Size = new System.Drawing.Size(1094, 633);
             this.tct_Main.TabIndex = 3;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage1.Size = new System.Drawing.Size(1086, 600);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(1086, 600);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1086, 600);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // Frm_main
             // 
@@ -377,6 +360,7 @@ namespace ProjectLogin
         private System.Windows.Forms.Panel pnl_Left;
         private System.Windows.Forms.FlowLayoutPanel pnlChucNang;
         private System.Windows.Forms.Button btnChucNang;
+        private System.Windows.Forms.Button btnTinhBill;
         private System.Windows.Forms.FlowLayoutPanel pnlHeThong;
         private System.Windows.Forms.Button btnHeThong;
         private System.Windows.Forms.Button btnQuanLiTaiKhoan;
@@ -389,12 +373,10 @@ namespace ProjectLogin
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripStatusLabel lblTrangThai;
-        private System.Windows.Forms.Button btnQuanLySinhVien;
-        private System.Windows.Forms.Button btnQuanLyLop;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabControl tct_Main;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.ToolStripStatusLabel lblTrangThai;
+        private System.Windows.Forms.TabPage tabPage3;
     }
 }

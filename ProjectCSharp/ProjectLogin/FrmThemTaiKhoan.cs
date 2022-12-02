@@ -1,5 +1,5 @@
-﻿using Project40.DataLayer.Entity;
-using ProjectLogin.BLLLayer;
+﻿using ProjectLogin.BLLLayer;
+using ProjectLogin.DataLayer;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

@@ -1,5 +1,4 @@
-﻿using Project40;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,13 +45,13 @@ namespace ProjectLogin
         }
         private void btnChucNang_Click(object sender, EventArgs e)
         {
-            if (pnlChucNang.Height == 156)
+            if (pnlChucNang.Height == 103)
             {
                 pnlChucNang.Height = 50;
             }
             else
             {
-                pnlChucNang.Height = 156;
+                pnlChucNang.Height = 103;
                 pnlHeThong.Height = 50;
 
             }
@@ -87,16 +86,10 @@ namespace ProjectLogin
             }
         }
 
-        private void btnQuanLySinhVien_Click(object sender, EventArgs e)
+        private void btnTinhBill_Click(object sender, EventArgs e)
         {
-            QuanLiSinhVien quanLiSinhVien = new QuanLiSinhVien();
-            quanLiSinhVien.ShowDialog();
-        }
-
-        private void btnQuanLyLop_Click(object sender, EventArgs e)
-        {
-            FrmQuanLiLop frmQuanLiLop=new FrmQuanLiLop();   
-            frmQuanLiLop.ShowDialog();
+            Frm_TinhHoaDon frm_TinhHoaDon = new Frm_TinhHoaDon();
+            frm_TinhHoaDon.ShowDialog();
         }
     }
 }
