@@ -50,7 +50,7 @@ namespace ProjectLogin
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(32, 133);
+            this.label1.Location = new System.Drawing.Point(28, 127);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(32, 25);
             this.label1.TabIndex = 0;
@@ -58,12 +58,12 @@ namespace ProjectLogin
             // 
             // btnThoatTK
             // 
-            this.btnThoatTK.BackColor = System.Drawing.Color.Tomato;
+            this.btnThoatTK.BackColor = System.Drawing.Color.OrangeRed;
             this.btnThoatTK.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnThoatTK.ForeColor = System.Drawing.Color.White;
-            this.btnThoatTK.Location = new System.Drawing.Point(456, 497);
+            this.btnThoatTK.Location = new System.Drawing.Point(405, 473);
             this.btnThoatTK.Name = "btnThoatTK";
-            this.btnThoatTK.Size = new System.Drawing.Size(152, 58);
+            this.btnThoatTK.Size = new System.Drawing.Size(135, 55);
             this.btnThoatTK.TabIndex = 12;
             this.btnThoatTK.Text = "Thoát";
             this.btnThoatTK.UseVisualStyleBackColor = false;
@@ -71,9 +71,9 @@ namespace ProjectLogin
             // txtID
             // 
             this.txtID.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtID.Location = new System.Drawing.Point(162, 130);
+            this.txtID.Location = new System.Drawing.Point(144, 124);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(446, 32);
+            this.txtID.Size = new System.Drawing.Size(397, 32);
             this.txtID.TabIndex = 1;
             // 
             // ckNhoMatKhau
@@ -81,7 +81,7 @@ namespace ProjectLogin
             this.ckNhoMatKhau.AutoSize = true;
             this.ckNhoMatKhau.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ckNhoMatKhau.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ckNhoMatKhau.Location = new System.Drawing.Point(184, 435);
+            this.ckNhoMatKhau.Location = new System.Drawing.Point(164, 414);
             this.ckNhoMatKhau.Name = "ckNhoMatKhau";
             this.ckNhoMatKhau.Size = new System.Drawing.Size(160, 29);
             this.ckNhoMatKhau.TabIndex = 10;
@@ -93,7 +93,7 @@ namespace ProjectLogin
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(32, 253);
+            this.label2.Location = new System.Drawing.Point(28, 241);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 25);
             this.label2.TabIndex = 4;
@@ -104,7 +104,7 @@ namespace ProjectLogin
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(32, 198);
+            this.label3.Location = new System.Drawing.Point(28, 189);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 25);
             this.label3.TabIndex = 2;
@@ -113,27 +113,27 @@ namespace ProjectLogin
             // txtHoVaTen
             // 
             this.txtHoVaTen.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtHoVaTen.Location = new System.Drawing.Point(162, 191);
+            this.txtHoVaTen.Location = new System.Drawing.Point(144, 182);
             this.txtHoVaTen.Name = "txtHoVaTen";
-            this.txtHoVaTen.Size = new System.Drawing.Size(446, 32);
+            this.txtHoVaTen.Size = new System.Drawing.Size(397, 32);
             this.txtHoVaTen.TabIndex = 3;
             // 
             // txtTaiKhoan
             // 
             this.txtTaiKhoan.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtTaiKhoan.Location = new System.Drawing.Point(162, 253);
+            this.txtTaiKhoan.Location = new System.Drawing.Point(144, 241);
             this.txtTaiKhoan.Name = "txtTaiKhoan";
-            this.txtTaiKhoan.Size = new System.Drawing.Size(446, 32);
+            this.txtTaiKhoan.Size = new System.Drawing.Size(397, 32);
             this.txtTaiKhoan.TabIndex = 5;
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.SteelBlue;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(108)))), ((int)(((byte)(232)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 32F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label4.Location = new System.Drawing.Point(-6, -2);
+            this.label4.Location = new System.Drawing.Point(1, 2);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(717, 99);
+            this.label4.Size = new System.Drawing.Size(619, 90);
             this.label4.TabIndex = 0;
             this.label4.Text = "Thêm tài khoản";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -143,7 +143,7 @@ namespace ProjectLogin
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label5.Location = new System.Drawing.Point(32, 319);
+            this.label5.Location = new System.Drawing.Point(28, 304);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 25);
             this.label5.TabIndex = 6;
@@ -153,36 +153,36 @@ namespace ProjectLogin
             // 
             this.label6.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label6.Location = new System.Drawing.Point(32, 380);
+            this.label6.Location = new System.Drawing.Point(28, 362);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(136, 52);
+            this.label6.Size = new System.Drawing.Size(121, 50);
             this.label6.TabIndex = 8;
             this.label6.Text = "Nhập lại mật khẩu";
             // 
             // txtMatKhau
             // 
             this.txtMatKhau.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtMatKhau.Location = new System.Drawing.Point(162, 319);
+            this.txtMatKhau.Location = new System.Drawing.Point(144, 304);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(446, 32);
+            this.txtMatKhau.Size = new System.Drawing.Size(397, 32);
             this.txtMatKhau.TabIndex = 7;
             // 
             // txtNhapLaiMatKhau
             // 
             this.txtNhapLaiMatKhau.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNhapLaiMatKhau.Location = new System.Drawing.Point(162, 377);
+            this.txtNhapLaiMatKhau.Location = new System.Drawing.Point(144, 359);
             this.txtNhapLaiMatKhau.Name = "txtNhapLaiMatKhau";
-            this.txtNhapLaiMatKhau.Size = new System.Drawing.Size(446, 32);
+            this.txtNhapLaiMatKhau.Size = new System.Drawing.Size(397, 32);
             this.txtNhapLaiMatKhau.TabIndex = 9;
             // 
             // btnThemTK
             // 
-            this.btnThemTK.BackColor = System.Drawing.Color.Green;
+            this.btnThemTK.BackColor = System.Drawing.Color.ForestGreen;
             this.btnThemTK.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnThemTK.ForeColor = System.Drawing.Color.AliceBlue;
-            this.btnThemTK.Location = new System.Drawing.Point(162, 494);
+            this.btnThemTK.Location = new System.Drawing.Point(144, 470);
             this.btnThemTK.Name = "btnThemTK";
-            this.btnThemTK.Size = new System.Drawing.Size(158, 61);
+            this.btnThemTK.Size = new System.Drawing.Size(140, 58);
             this.btnThemTK.TabIndex = 11;
             this.btnThemTK.Text = "Thêm";
             this.btnThemTK.UseVisualStyleBackColor = false;
@@ -191,11 +191,11 @@ namespace ProjectLogin
             // FrmThemTaiKhoan
             // 
             this.AcceptButton = this.btnThemTK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(108)))), ((int)(((byte)(232)))));
             this.CancelButton = this.btnThoatTK;
-            this.ClientSize = new System.Drawing.Size(699, 605);
+            this.ClientSize = new System.Drawing.Size(621, 576);
             this.Controls.Add(this.txtNhapLaiMatKhau);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtTaiKhoan);

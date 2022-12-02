@@ -55,9 +55,9 @@ namespace ProjectLogin
             // 
             this.cbbDanhSachUser.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbbDanhSachUser.FormattingEnabled = true;
-            this.cbbDanhSachUser.Location = new System.Drawing.Point(47, 153);
+            this.cbbDanhSachUser.Location = new System.Drawing.Point(42, 146);
             this.cbbDanhSachUser.Name = "cbbDanhSachUser";
-            this.cbbDanhSachUser.Size = new System.Drawing.Size(524, 33);
+            this.cbbDanhSachUser.Size = new System.Drawing.Size(466, 33);
             this.cbbDanhSachUser.TabIndex = 2;
             // 
             // btnXacNhan
@@ -65,9 +65,9 @@ namespace ProjectLogin
             this.btnXacNhan.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnXacNhan.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnXacNhan.ForeColor = System.Drawing.Color.White;
-            this.btnXacNhan.Location = new System.Drawing.Point(52, 632);
+            this.btnXacNhan.Location = new System.Drawing.Point(46, 602);
             this.btnXacNhan.Name = "btnXacNhan";
-            this.btnXacNhan.Size = new System.Drawing.Size(200, 61);
+            this.btnXacNhan.Size = new System.Drawing.Size(178, 58);
             this.btnXacNhan.TabIndex = 9;
             this.btnXacNhan.Text = "Xác nhận";
             this.btnXacNhan.UseVisualStyleBackColor = false;
@@ -78,7 +78,7 @@ namespace ProjectLogin
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(34, 134);
+            this.label1.Location = new System.Drawing.Point(30, 128);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(169, 30);
             this.label1.TabIndex = 5;
@@ -87,10 +87,10 @@ namespace ProjectLogin
             // txtMatKhau
             // 
             this.txtMatKhau.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtMatKhau.Location = new System.Drawing.Point(38, 169);
+            this.txtMatKhau.Location = new System.Drawing.Point(34, 161);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(519, 32);
+            this.txtMatKhau.Size = new System.Drawing.Size(462, 32);
             this.txtMatKhau.TabIndex = 6;
             // 
             // label2
@@ -98,7 +98,7 @@ namespace ProjectLogin
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(34, 231);
+            this.label2.Location = new System.Drawing.Point(30, 220);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(208, 30);
             this.label2.TabIndex = 7;
@@ -107,10 +107,10 @@ namespace ProjectLogin
             // txtNhapLaiMatKhau
             // 
             this.txtNhapLaiMatKhau.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtNhapLaiMatKhau.Location = new System.Drawing.Point(38, 266);
+            this.txtNhapLaiMatKhau.Location = new System.Drawing.Point(34, 253);
             this.txtNhapLaiMatKhau.Name = "txtNhapLaiMatKhau";
             this.txtNhapLaiMatKhau.PasswordChar = '*';
-            this.txtNhapLaiMatKhau.Size = new System.Drawing.Size(519, 32);
+            this.txtNhapLaiMatKhau.Size = new System.Drawing.Size(462, 32);
             this.txtNhapLaiMatKhau.TabIndex = 8;
             // 
             // btnHuy
@@ -118,9 +118,9 @@ namespace ProjectLogin
             this.btnHuy.BackColor = System.Drawing.Color.Tomato;
             this.btnHuy.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnHuy.ForeColor = System.Drawing.Color.White;
-            this.btnHuy.Location = new System.Drawing.Point(380, 632);
+            this.btnHuy.Location = new System.Drawing.Point(338, 602);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(188, 61);
+            this.btnHuy.Size = new System.Drawing.Size(167, 58);
             this.btnHuy.TabIndex = 10;
             this.btnHuy.Text = "Hủy";
             this.btnHuy.UseVisualStyleBackColor = false;
@@ -131,7 +131,7 @@ namespace ProjectLogin
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(42, 111);
+            this.label3.Location = new System.Drawing.Point(37, 106);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(233, 30);
             this.label3.TabIndex = 1;
@@ -142,7 +142,7 @@ namespace ProjectLogin
             this.lblResetMatKhau.AutoSize = true;
             this.lblResetMatKhau.BackColor = System.Drawing.Color.Khaki;
             this.lblResetMatKhau.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblResetMatKhau.Location = new System.Drawing.Point(52, 205);
+            this.lblResetMatKhau.Location = new System.Drawing.Point(46, 195);
             this.lblResetMatKhau.Name = "lblResetMatKhau";
             this.lblResetMatKhau.Size = new System.Drawing.Size(165, 30);
             this.lblResetMatKhau.TabIndex = 3;
@@ -152,9 +152,9 @@ namespace ProjectLogin
             // gpChon
             // 
             this.gpChon.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gpChon.Location = new System.Drawing.Point(14, 87);
+            this.gpChon.Location = new System.Drawing.Point(12, 83);
             this.gpChon.Name = "gpChon";
-            this.gpChon.Size = new System.Drawing.Size(601, 167);
+            this.gpChon.Size = new System.Drawing.Size(534, 159);
             this.gpChon.TabIndex = 0;
             this.gpChon.TabStop = false;
             this.gpChon.Text = "Chọn tài khoản cần reset mật khẩu (Chỉ dành cho Admin)";
@@ -170,9 +170,9 @@ namespace ProjectLogin
             this.gpDoi.Controls.Add(this.label1);
             this.gpDoi.Controls.Add(this.label2);
             this.gpDoi.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.gpDoi.Location = new System.Drawing.Point(14, 270);
+            this.gpDoi.Location = new System.Drawing.Point(12, 257);
             this.gpDoi.Name = "gpDoi";
-            this.gpDoi.Size = new System.Drawing.Size(601, 321);
+            this.gpDoi.Size = new System.Drawing.Size(534, 306);
             this.gpDoi.TabIndex = 4;
             this.gpDoi.TabStop = false;
             this.gpDoi.Text = "Đổi mật khẩu (tài khoản đang truy cập)";
@@ -180,7 +180,7 @@ namespace ProjectLogin
             // pbHEye
             // 
             this.pbHEye.Image = ((System.Drawing.Image)(resources.GetObject("pbHEye.Image")));
-            this.pbHEye.Location = new System.Drawing.Point(522, 38);
+            this.pbHEye.Location = new System.Drawing.Point(464, 36);
             this.pbHEye.Name = "pbHEye";
             this.pbHEye.Size = new System.Drawing.Size(32, 32);
             this.pbHEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -191,7 +191,7 @@ namespace ProjectLogin
             // pbEye
             // 
             this.pbEye.Image = ((System.Drawing.Image)(resources.GetObject("pbEye.Image")));
-            this.pbEye.Location = new System.Drawing.Point(522, 38);
+            this.pbEye.Location = new System.Drawing.Point(464, 36);
             this.pbEye.Name = "pbEye";
             this.pbEye.Size = new System.Drawing.Size(32, 32);
             this.pbEye.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -202,10 +202,10 @@ namespace ProjectLogin
             // txtMatKhauCu
             // 
             this.txtMatKhauCu.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtMatKhauCu.Location = new System.Drawing.Point(38, 78);
+            this.txtMatKhauCu.Location = new System.Drawing.Point(34, 74);
             this.txtMatKhauCu.Name = "txtMatKhauCu";
             this.txtMatKhauCu.PasswordChar = '*';
-            this.txtMatKhauCu.Size = new System.Drawing.Size(519, 32);
+            this.txtMatKhauCu.Size = new System.Drawing.Size(462, 32);
             this.txtMatKhauCu.TabIndex = 6;
             // 
             // label5
@@ -213,7 +213,7 @@ namespace ProjectLogin
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(34, 43);
+            this.label5.Location = new System.Drawing.Point(30, 41);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 30);
             this.label5.TabIndex = 5;
@@ -221,12 +221,12 @@ namespace ProjectLogin
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.SteelBlue;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(108)))), ((int)(((byte)(232)))));
             this.label4.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Snow;
             this.label4.Location = new System.Drawing.Point(1, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(629, 70);
+            this.label4.Size = new System.Drawing.Size(559, 67);
             this.label4.TabIndex = 6;
             this.label4.Text = "THAY ĐỔI MẬT KHẨU";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -234,11 +234,11 @@ namespace ProjectLogin
             // FrmEditMatKhau
             // 
             this.AcceptButton = this.btnXacNhan;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SteelBlue;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(108)))), ((int)(((byte)(232)))));
             this.CancelButton = this.btnHuy;
-            this.ClientSize = new System.Drawing.Size(628, 731);
+            this.ClientSize = new System.Drawing.Size(558, 696);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lblResetMatKhau);
             this.Controls.Add(this.label3);

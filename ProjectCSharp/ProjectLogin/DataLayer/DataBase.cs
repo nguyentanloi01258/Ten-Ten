@@ -19,7 +19,7 @@ namespace ProjectLogin.DataLayer
         {
             List<User> users = null;
             //cau truc doc file
-            using (FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read))
+            using (FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read))//lỗi
             {
                 using(StreamReader streamReader=new StreamReader(fileStream))
                 {

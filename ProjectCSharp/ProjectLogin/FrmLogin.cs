@@ -54,7 +54,7 @@ namespace ProjectLogin
                     }
                     else
                     {
-                        MessageBox.Show("Tài khoản hoặc mật khẩu chưa chính xác\nXin Vui lòng kiểm tra lại", "Thông Báo",              MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        MessageBox.Show("Tài khoản hoặc mật khẩu chưa chính xác\nXin Vui lòng kiểm tra lại", "Thông Báo",MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         txtTaiKhoan.ResetText();
                         txtMatKhau.Text = string.Empty;
                         txtTaiKhoan.Focus();
@@ -125,6 +125,11 @@ namespace ProjectLogin
                 pbEye.BringToFront();//nhảy ra sau
                 txtMatKhau.PasswordChar = '\0';// click để thay đổi , /0 nhữg kí tự bình thường
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
